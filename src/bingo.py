@@ -36,12 +36,11 @@ def main(Verbose=True):
     DEBUG:
     FUTURE:
     """
-    states = ["cat", "hat", "pop", "mom", "dad", "hog", "girl", "boy", "dirt", "red", "rat",
+    wordL = ["cat", "hat", "pop", "mom", "dad", "hog", "girl", "boy", "dirt", "red", "rat",
               "blue", "tree", "code", "run", "leaf", "tent", "camp", "help", "trust", "friend",
               "strong", "respect", "rain", "fun", "sun", "swim", "team", "program", "doctor"]
-    #state_names = [s.split('-')[1].strip() for s in states]
 
-    random.shuffle(states)
+    random.shuffle(wordL)
     rowlen= 4  # make any size card you'd like
      
     fig = plt.figure()
@@ -50,7 +49,7 @@ def main(Verbose=True):
     ax.set_yticks(np.arange(0, rowlen + 1))
     plt.grid()
      
-    for i, word in enumerate(states[:rowlen**2]):
+    for i, word in enumerate(wordL[:rowlen**2]):
         x = (i % rowlen) + 0.4
         y = int(i / rowlen) + 0.5
         ax.annotate(word, xy=(x, y), xytext=(x, y))
