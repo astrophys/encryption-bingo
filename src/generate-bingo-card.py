@@ -12,7 +12,7 @@
 #   
 #
 # How to Run :
-#       python3 src/bingo.py wordlist.txt
+#       python3 src/generate-bingo-card.py wordlist.txt
 import sys
 from matplotlib import pyplot as plt
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ def print_help(Arg):
     FUTURE:
     """
     sys.stdout.write(
-        "\nUSAGE : python src/bingo.py wordlist.txt \n\n"
+        "\nUSAGE : python src/generate-bingo-card.py wordlist.txt \n\n"
         "   wordlist.txt : (file) List of words (one entry per line) to make bingo out of\n"
         "                         \n")
     sys.exit(Arg)
