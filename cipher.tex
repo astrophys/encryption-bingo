@@ -1,0 +1,37 @@
+% compile : 
+%   pdflatex cipher.tex
+%
+%
+%
+%
+%
+%
+%
+\documentclass{article}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{geometry}
+\usepackage{pdflscape}
+
+\begin{document}
+\title{Caeser Cipher}
+\author{Ali Snedden}
+
+\small
+\newgeometry{margin=1cm} % modify this if you need even more space
+\begin{landscape}
+\begin{adjustbox}{left}
+\begin{tabularx}{1.33\textwidth}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline
+    In : & z & a & b & c & d & e & f & g & h & i & j & k & l & m & n & o & p & q & r & s & t & u & v & w & x & y \\
+  \hline
+    Out : & a & b & c & d & e & f & g & h & i & j & k & l & m & n & o & p & q & r & s & t & u & v & w & x & y & z \\
+  \hline
+\end{tabularx}
+\end{adjustbox}
+\end{landscape}
+\restoregeometry
+%}
+
+
+\end{document}
