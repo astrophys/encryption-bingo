@@ -2,3 +2,6 @@
 __pycache__
 .*.swp
 *.png
+cipher.aux
+cipher.pdf
+cipher.log     

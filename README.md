@@ -9,8 +9,13 @@ Troop. It uses a Caesar Cipher where the letter's have been shifted by one.
 ## Dependencies
 1. Python-3 (tested with Python-3.7.3)
 2. Matplotlib (tested with 3.2.1)
+3. Latex    (tested with pdfTeX 3.141592653-2.6-1.40.22)
 
 ## To Use
+0. Generate the cipher.pdf to distribute
+    ```
+        pdflatex cipher.tex
+    ```
 1. Generate a list of words, one entry per line in a text file (see `wordlist.txt`) for an
    example
 2. Run 
@@ -25,8 +30,8 @@ Troop. It uses a Caesar Cipher where the letter's have been shifted by one.
         python3 src/encrypt.py encrypt WORD
     ```
    where `WORD` is an entry drawn from `wordlist.txt`
-5. Write the encrypted message on a white board and let the kids decrypt it, marking off 
-   entries as they go.
+5. Write the encrypted message on a white board and let the kids decrypt it using cipher.pdf,
+   marking off entries as they go.
 
 
 
