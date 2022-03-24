@@ -32,6 +32,7 @@ Troop. It uses a Caesar Cipher where the letter's have been shifted by one.
    where `WORD` is an entry drawn from `wordlist.txt`
 5. Write the encrypted message on a white board and let the kids decrypt it using cipher.pdf,
    marking off entries as they go.
+6. Play until bingo (and candy) achieved!
 
 
 
